@@ -3,7 +3,7 @@ def csv_reader(file_name):
     result = file.read().split("\n")
     return result
 
-csv_gen = csv_reader("data/techcrunch.csv")
+csv_gen = csv_reader("data/ayende-large-data-file-example.csv")
 row_count = 0
 
 for row in csv_gen:
