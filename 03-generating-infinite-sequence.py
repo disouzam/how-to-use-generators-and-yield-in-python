@@ -4,7 +4,5 @@ def infinite_sequence():
         yield num
         num += 1
 
-gen = infinite_sequence()
-
-while True:
-    print(next(gen))
+for i in infinite_sequence():
+    print(i, end=" ")
