@@ -34,4 +34,6 @@ for i in pal_gen:
     print(f"Next was just called and returned: {i}")
     digits = len(str(i))
     print(f"Send method will be called with value: {10 ** (digits)}")
+    if digits == 5:
+        pal_gen.throw(ValueError("We don't like large palindromes"))
     pal_gen.send(10 ** (digits))
