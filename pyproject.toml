@@ -1,0 +1,17 @@
+[project]
+name = "how-to-use-generators-and-yield-in-python"
+version = "0.1.0"
+description = "This repository contains code to follow Real Python article at https://realpython.com/introduction-to-python-generators/#using-advanced-generator-methods"
+authors = [
+    {name = "Dickson Souza",email = "36424026+disouzam@users.noreply.github.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
