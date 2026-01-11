@@ -35,5 +35,5 @@ for i in pal_gen:
     digits = len(str(i))
     print(f"Send method will be called with value: {10 ** (digits)}")
     if digits == 5:
-        pal_gen.throw(ValueError("We don't like large palindromes"))
+        pal_gen.close()
     pal_gen.send(10 ** (digits))
